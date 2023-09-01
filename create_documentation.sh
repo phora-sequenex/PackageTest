@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOCS="docs/"
-BASEPATH="phora-sequenex/PackageTest"
+BASEPATH="PackageTest"
 TARGET="PackageTest"
 
 swift package --allow-writing-to-directory "$DOCS" \
