@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOCS="docs/"
-BASEPATH="https://github.com/phora-sequenex/PackageTest"
+BASEPATH="phora-sequenex/PackageTest"
 TARGET="PackageTest"
 
 echo "Creating documentation in $DOCS for target $TARGET and basepath $BASEPATH"
