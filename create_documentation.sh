@@ -1,8 +1,10 @@
 #!/bin/bash
 
 DOCS="docs/"
-BASEPATH="PackageTest"
+BASEPATH="phora-sequenex/PackageTest"
 TARGET="PackageTest"
+
+echo "Creating documentation in $DOCS for target $TARGET and basepath $BASEPATH"
 
 swift package --allow-writing-to-directory "$DOCS" \
     generate-documentation --target "$TARGET" \
