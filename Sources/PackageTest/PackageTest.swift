@@ -4,3 +4,13 @@ public struct PackageTest {
     public init() {
     }
 }
+
+/// Something documentatiob
+public struct Something {
+    
+    /// Does Init things
+    /// - Parameter text: is a text
+    public init(text: String) {
+        
+    }
+}

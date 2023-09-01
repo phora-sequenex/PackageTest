@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOCS="docs/"
+DOCS="docs"
 BASEPATH="PackageTest"
 TARGET="PackageTest"
 
