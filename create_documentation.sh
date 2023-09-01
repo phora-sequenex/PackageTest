@@ -10,5 +10,5 @@ swift package --allow-writing-to-directory "$DOCS" \
     generate-documentation --target "$TARGET" \
     --disable-indexing \
     --transform-for-static-hosting \
-    --hosting-base-path "$BASEPATH" \
+    --hosting-base-path "$BASEPATH/$DOCS" \
     --output-path "$DOCS"
